@@ -1,0 +1,1 @@
+# cartesi-hot-wallet-project
