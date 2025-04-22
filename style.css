@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, #ff003c, #a800ff, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.tagline {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+/* Sections */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #a800ff;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  background: #111;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #ff003c;
+  border-radius: 4px;
+}
+
+/* CTA Button */
+.cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.cta button {
+  background: linear-gradient(90deg, #ff003c, #a800ff, #007bff);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cta button:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #222;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
