@@ -52,7 +52,6 @@ main {
 }
 
 .features li {
-  background: #111;
   margin: 0.5rem 0;
   padding: 0.75rem 1rem;
   border-left: 4px solid #ff003c;
